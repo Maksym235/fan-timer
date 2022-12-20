@@ -1,0 +1,38 @@
+.time-now,
+.time-to-newYear,
+.title__timeToNewYear,
+.title__timeNow {
+  display: flex;
+  justify-content: center;
+  font-size: 150px;
+}
+
+.time-now {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 700px;
+  border: 5px solid #000000;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.time-to-newYear {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 1000px;
+  border: 5px solid #000000;
+  box-shadow: 15px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.time-now,
+.time-to-newYear {
+  font-family: "Amatic SC", cursive;
+  font-weight: 400;
+}
+
+.title__timeNow,
+.title__timeToNewYear {
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+}
