@@ -3,7 +3,7 @@ const refs = {
   timeToNewYear: document.querySelector(".time-to-newYear"),
 };
 
-const newYear = new Date("2023-01-01T00:00:00");
+const newYear = new Date("2024-01-01T00:00:00");
 
 const timerID = setInterval(() => {
   const currentTime = Date.now();
